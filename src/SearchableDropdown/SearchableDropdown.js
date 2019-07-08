@@ -24,7 +24,7 @@ export default class SearchableDropdown extends React.Component {
   componentDidMount() {
     this.setState({
       items: this.props.items,
-      selectedText: this.props.selectedText || ''
+      selectedText: this.props.selectedText ? this.props.selectedText : ''
     });
   }
 
@@ -78,7 +78,9 @@ export default class SearchableDropdown extends React.Component {
     return (
       <View style={{ flex: 1 }}>
         <View keyboardShouldPersist='always' style={styles.boxWrapper}>
-          <Text style={styles.titleStyle}>{this.props.title || ''}</Text>
+          <Text style={styles.titleStyle}>
+            {this.props.title ? this.props.title : ''}
+          </Text>
           <TextInput
             ref={ref => {
               if (ref) this.textInputRef = ref;

@@ -32,7 +32,9 @@
   },
   "homepage": "https://github.com/jungRoit/rn-searchable-dropdown#readme",
   "dependencies": {
-    "metro-react-native-babel-preset": "^0.55.0",
     "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.55.0"
   }
 }
