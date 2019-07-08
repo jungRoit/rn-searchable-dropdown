@@ -1,0 +1,38 @@
+{
+  "name": "rn-searchable-dropdown",
+  "version": "1.0.0",
+  "description": "searchable dropdown component for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jungRoit/rn-searchable-dropdown.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "searchable dropdown",
+    "typeable dropdown",
+    "dropdown",
+    "react-native-searchable-dropdown"
+  ],
+  "author": "Roit Jung Karki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jungRoit/rn-searchable-dropdown/issues"
+  },
+  "homepage": "https://github.com/jungRoit/rn-searchable-dropdown#readme",
+  "dependencies": {
+    "metro-react-native-babel-preset": "^0.55.0",
+    "prop-types": "^15.7.2"
+  }
+}
